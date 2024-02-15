@@ -1,0 +1,6 @@
+npx lint-staged
+echo "\nRunning tsc..."
+npx tsc --pretty --noEmit
+echo "\nChecking for unused files, dependencies and exports..."
+npx knip
+echo "\n"
