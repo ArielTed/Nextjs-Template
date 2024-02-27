@@ -1,0 +1,3 @@
+echo "\nChecking for unused files, dependencies and exports..."
+npx knip
+echo
