@@ -33,6 +33,7 @@ module.exports = {
   root: true,
   rules: {
     '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/no-misused-promises': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -60,7 +61,7 @@ module.exports = {
           'object',
           'unknown',
         ],
-        'internal-pattern': ['@/app/**', '@/components/**', '@/lib/**', '@/styles/**', '@/types/**', '@/utils/**'],
+        'internal-pattern': ['@/**'],
       },
     ],
     'perfectionist/sort-interfaces': 'warn',
